@@ -1,9 +1,7 @@
 # RoomMapper - Room Mapping Software for the Prose System
-![Screenshot](https://github.com/benbirchpersonal/JMapper/tree/main/screenshot.jpg?raw=true)
 
 <p align="center">
   <img src="screenshot.jpg" width="720" title="hover text">
-  <img src="screenshot.jpg" width="720" alt="accessibility text">
 </p>
 
 
