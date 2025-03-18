@@ -1,5 +1,12 @@
 # RoomMapper - Room Mapping Software for the Prose System
 ![Screenshot](https://github.com/benbirchpersonal/JMapper/tree/main/screenshot.jpg?raw=true)
+
+<p align="center">
+  <img src="screenshot.jpg" width="720" title="hover text">
+  <img src="screenshot.jpg" width="720" alt="accessibility text">
+</p>
+
+
 A C++ desktop application built with **Dear ImGui** for creating floor plans, managing wireless access points (WAPs), and exporting maps to the `.PRZMAP` format compatible with the **Prose** web application system.
 
 ## Features
