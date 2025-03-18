@@ -1,4 +1,4 @@
-# RoomMapper - Room Mapping Software for the Prose System
+# JMapper - Room Mapping Software for the Prose System
 
 <p align="center">
   <img src="screenshot.jpg" width="720" title="hover text">
