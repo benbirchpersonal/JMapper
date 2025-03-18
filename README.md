@@ -14,6 +14,7 @@ A C++ desktop application built with **Dear ImGui** for creating floor plans, ma
 - **Door Placement**: Add doors between adjacent rooms
 - **Prose System Integration**: Export maps to `.PRZMAP` format for web application parsing
 - **ImGui Interface**: User-friendly graphical interface with real-time preview
+- **Cross-Platform**: Uses GLFW and TinyFileDialogs to allow a platform-independent experience
 
 ## Installation
 ### Dependencies
