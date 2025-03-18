@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/glfw/3.4/include/",
+                "${workspaceFolder}/dependencies/imgui/**",
+                "${workspaceFolder}/dependencies/"
+
+
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/opt/homebrew/Cellar/glfw/3.4/include/",
+                    "${workspaceFolder}/dependencies/imgui/**",
+                    "${workspaceFolder}/dependencies/"
+
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

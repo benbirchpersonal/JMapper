@@ -1,0 +1,48 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "type": "cppbuild",
+        "label": "C/C++: clang++ build active file",
+        "command": "/usr/bin/clang++",
+        "args": [
+          "-std=c++17",
+          "-fdiagnostics-color=always",
+          "-Wall",
+          "-g",
+          "-I/opt/homebrew/Cellar/glfw/3.4/include/",
+          "-I${workspaceFolder}/dependencies/imgui/",
+          "-I${workspaceFolder}/dependencies/",
+          "-L${workspaceFolder}/dependencies/lib",
+          "${workspaceFolder}/dependencies/lib/libglfw.3.4.dylib",
+          "${workspaceFolder}/dependencies/glad/src/glad.c",
+          "${workspaceFolder}/dependencies/imgui/backends/imgui_impl_glfw.cpp",
+          "${workspaceFolder}/dependencies/imgui/backends/imgui_impl_opengl3.cpp",
+          "${workspaceFolder}/dependencies/imgui/*.cpp",
+          "${workspaceFolder}/dependencies/tinyFileDialogs/*.c",
+          "${workspaceFolder}/src/main.cpp",  // Added this line
+          "-o",
+          "${workspaceFolder}/app",
+          "-framework",
+          "OpenGL",
+          "-framework",
+          "Cocoa",
+          "-framework",
+          "IOKit",
+          "-framework",
+          "CoreVideo",
+          "-Wno-deprecated"
+        ],
+        "options": {
+          "cwd": "${fileDirname}"
+        },
+        "problemMatcher": ["$gcc"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "detail": "compiler: /usr/bin/clang++"
+      }
+    ]
+  }
+  
